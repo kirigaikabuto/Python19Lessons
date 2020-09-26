@@ -1,3 +1,6 @@
-Введите сумма займа:100
-Введите процент займа:10
-110
+a = input("Введите сумму займа:")
+b = input("Введите процент:")
+money = int(a)
+percent = int(b)/100
+total = money+(money*percent)
+print(total)
