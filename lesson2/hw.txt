@@ -27,3 +27,6 @@ print(a,b) # 4 3
 
 3) тема для самостоятельного изучения
 https://pythonworld.ru/osnovy/instrukciya-if-elif-else-proverka-istinnosti-trexmestnoe-vyrazhenie-ifelse.html
+
+pip install mysql-client
+pip install mysql-connector
