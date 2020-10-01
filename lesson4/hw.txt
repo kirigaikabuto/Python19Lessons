@@ -34,3 +34,4 @@ hello
 1 нечетное
 
 3)
+https://metanit.com/python/tutorial/2.7.php
