@@ -1,12 +1,13 @@
 #5
 #15
 n = int(input())
-i = 0
-sumi = 0
+i = 1
+sumi = 1
 while i <= n:
-    sumi = sumi + i
+    sumi = sumi * i
     i += 1
 print(sumi)
+#1 * 2 *3 *4 * 5
 # i = 0
 # sumi = 0 + 0 =0
 # i = 1
