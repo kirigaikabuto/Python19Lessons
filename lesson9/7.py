@@ -41,6 +41,7 @@ elif k == 2:
     file3 = open("clothes.txt", "w")
     file3.write(s)
     file3.close()
+
 elif k == 3:
     print("удалить товар")
 elif k == 4:
