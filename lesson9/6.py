@@ -1,5 +1,5 @@
 # clothes
-file1 = open("clothes.txt", "r")  # r ->read
+file1 = open("clothes.txt", "r", encoding="utf-8")  # r ->read
 data1 = file1.read()
 clothes = data1.split("\n")
 n = len(clothes)
