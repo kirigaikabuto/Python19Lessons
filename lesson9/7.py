@@ -35,6 +35,12 @@ if k == 1:
 
 elif k == 2:
     print("добавить новый товар")
+    name = input("введите название нового товара:")
+    clothes.append(name)
+    s = "\n".join(clothes)
+    file3 = open("clothes.txt", "w")
+    file3.write(s)
+    file3.close()
 elif k == 3:
     print("удалить товар")
 elif k == 4:
