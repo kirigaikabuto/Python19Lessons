@@ -1,7 +1,7 @@
 clothes = [
     "футболка",
     "шуба",
-    "джинсы"
+    "джинсы",
 ]
 prices = [
     250,
@@ -14,6 +14,7 @@ while i < n:
     print(f"{i}.{clothes[i]}")
     i += 1
 choice = int(input("выбрать:"))
+print(clothes[choice], prices[choice])
 # программа спрашивает у человека что ты хочешь купить?
 # 0.футболка
 # 1.шуба
