@@ -1,0 +1,22 @@
+реализовать систему регистрации где пользователь имеет данные такие как username,password все данные сохраняются в
+username.txt и password.txt
+username = ["username1","username2"]
+password = ["password1","password2"]
+
+[1] создать пользователя
+[2] список пользователей
+
+пример1
+[1] создать пользователя
+[2] список пользователей
+1
+введите username:username3
+введите password:password3
+
+пример2
+[1] создать пользователя
+[2] список пользователей
+2
+username1 password1
+username2 password2
+username3 password3
