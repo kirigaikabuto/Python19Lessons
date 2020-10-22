@@ -1,3 +1,31 @@
+1)
+4 5 6
+9 0 1
+3 9 8
+
+найти среднее ариф в каждой строке
+5
+5
+9.3
+
+2)
+users.txt -> id,name,balance
+products.txt -> id,name,price
+orders.txt ->
+
+[users.txt] ->users[]
+1,yerassyl,1000
+2,yerassyl,300
+
+[products.txt] ->products[]
+1,product1,100
+2,product1,1000
+
+[orders.txt]-> orders[]
+1,......
+
+
+
 #дописать ту часть которая отвечает за добавление цены вместе с товаром
 
 удаление элемента это
