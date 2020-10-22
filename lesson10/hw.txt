@@ -26,7 +26,7 @@ orders.txt ->
 [orders.txt]-> orders[]
 0,......
 
-3)
+3)database.txt
 
 [1]Смотреть товары
 [2]Выйти
