@@ -1,0 +1,3 @@
+0,product1,100
+1,product1,1000
+2,sdsd,2323

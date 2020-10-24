@@ -1,0 +1,3 @@
+0,yerassyl,1000
+1,yerassyl,300
+2,krsdd,3000

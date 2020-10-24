@@ -1,0 +1,16 @@
+1)
+https://pythonworld.ru/tipy-dannyx-v-python/slovari-dict-funkcii-i-metody-slovarej.html
+2)
+krsdd -> product1
+2.1
+считываем данные из products.txt и users.txt и создаем массивы
+users=[
+    [0,"yerassyl",3000]
+]
+2.2
+считываем данные из orders.txt и создаем массив
+orders =[
+    [0,2,1]
+] -> [
+    [0,krsdd,product1]
+]
