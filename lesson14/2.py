@@ -8,7 +8,8 @@ person2 = {
     "last_name": "person2",
     "age": 50,
 }
-#code
+# code
+person1["age"] = person1["age"] + 28
 print(person1["age"])
 # print(person1["first_name"])
 # print(person1["last_name"])
