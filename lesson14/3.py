@@ -15,10 +15,14 @@ teacher3 = {
     "salary": 2000,
     "age": 30
 }
-#если это учитель math и его возраст 40 < age < 60 -> 30%
-#если это учитель math и его возраст 25 < age < 40 -> 20%
+# если это учитель math и его возраст 40 < age < 60 -> 30%
+# если это учитель math и его возраст 25 < age < 40 -> 20%
 if teacher1["subject"] == "math":
-    teacher1["salary"] = teacher1["salary"] + teacher1["salary"] * 0.1
+    if teacher1["age"] >= 40 and teacher1["age"] <= 50:
+        teacher1["salary"] = teacher1["salary"] + teacher1["salary"] * 0.3
+    else:
+        teacher1["salary"] = teacher1["salary"] + teacher1["salary"] * 0.2
+
 if teacher2["subject"] == "math":
     teacher2["salary"] = teacher2["salary"] + teacher2["salary"] * 0.1
 if teacher3["subject"] == "math":
