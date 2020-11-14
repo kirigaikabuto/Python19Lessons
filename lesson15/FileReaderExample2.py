@@ -1,4 +1,4 @@
-fileName = "info.txt"
+fileName = "out.txt"
 file = open(fileName, "r")
 data = file.readlines()
 numbers = []
