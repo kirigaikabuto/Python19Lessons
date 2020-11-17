@@ -19,7 +19,6 @@ else:
     k = 0
     for i in users:
         if i["username"] == username:
-            person = i
             k = 1
     if k == 1:
         print("у нас уже есть такой пользователь")
