@@ -11,16 +11,22 @@ user3 = {
     "password": "passanya3",
 }
 users = [user1, user2, user3]
-username = input()
-password = input()
-#code
-# введите username:admin123
-# введите password:admin123
-
+username = input("username:")
+password = input("password:")
+if username == "" or password == "":
+    print("заполните все данные")
+else:
+    k = 0
+    for i in users:
+        if i["username"] == username:
+            person = i
+            k = 1
+    if k == 1:
+        print("у нас уже есть такой пользователь")
+    else:
+        user = {
+            "username": username,
+            "password": password,
+        }
+        users.append(user)
 print(users)
-# otvet
-# [{'username': 'admin1', 'password': 'passanya1'},
-# {'username': 'admin2', 'password': 'passanya2'},
-# {'username': 'admin3', 'password': 'passanya3'},
-# {'username': "admin123","password":"admin123"},
-# ]
