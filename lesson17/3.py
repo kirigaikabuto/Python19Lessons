@@ -26,7 +26,7 @@ pizza2 = {
     "price": 5.99,
     "ingredients": ingredients2
 }
-pizzas = [pizza1, pizza1]
+pizzas = [pizza1, pizza2]
 # file write
 filename = "pizzas.json"
 file = open(filename, "w")

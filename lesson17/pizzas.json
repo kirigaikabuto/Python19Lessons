@@ -15,17 +15,17 @@
         ]
     },
     {
-        "id": 1,
-        "title": "Primavera Pizza",
-        "price": 3.99,
+        "id": 2,
+        "title": "Vegetarian Pizza",
+        "price": 5.99,
         "ingredients": [
             {
                 "id": 1,
                 "name": "tomato"
             },
             {
-                "id": 2,
-                "name": "cheese"
+                "id": 3,
+                "name": "garlic"
             }
         ]
     }
