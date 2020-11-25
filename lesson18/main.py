@@ -1,16 +1,17 @@
-# This is a sample Python script.
+s = input("write something:")
+l = input("write something:")
+number1 = 0
+number2 = 0
+if s.isnumeric():
+    number1 = int(s)
+else:
+    print("Need Only numbers")
+    exit()
 
-# Press Shift+F10 to execute it or replace it with your code.
-# Press Double Shift to search everywhere for classes, files, tool windows, actions, and settings.
+if l.isnumeric():
+    number2 = int(l)
+else:
+    print("Need Only numbers")
+    exit()
 
-
-def print_hi(name):
-    # Use a breakpoint in the code line below to debug your script.
-    print(f'Hi, {name}')  # Press Ctrl+F8 to toggle the breakpoint.
-
-
-# Press the green button in the gutter to run the script.
-if __name__ == '__main__':
-    print_hi('PyCharm')
-
-# See PyCharm help at https://www.jetbrains.com/help/pycharm/
+print(number1 + number2)
