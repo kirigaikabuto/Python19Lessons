@@ -1,3 +1,6 @@
+import json
+
+
 def printUsers(data):
     for i in data:
         print(i["name"], i["salary"])
@@ -24,3 +27,17 @@ def getParamSum(data, param):
     for i in data:
         sumi += i[param]
     return sumi
+
+
+def getDataFromJsonFile(fileName):
+    file = open(fileName, "r")
+    dataJson = file.read()
+    data = json.loads(dataJson)
+    return data
+
+
+def saveDataToJsonFile(fileName, data):
+    dataJson = json.dumps(data, indent=4)
+    file = open(fileName, "w")
+    file.write(dataJson)
+    file.close()
