@@ -16,7 +16,7 @@ user3 = {
     "age": 33,
 }
 users = [user1, user2, user3]
-printUsers(data=users)
+printData(data=users)
 output = getMaxDataByParam(data=users, param="salary")
 maxiAge = getMaxDataByParam(data=users, param="age")
 allSalary = getParamSum(data=users, param="salary")
