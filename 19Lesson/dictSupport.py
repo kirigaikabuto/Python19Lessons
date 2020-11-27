@@ -1,9 +1,9 @@
 import json
 
 
-def printUsers(data):
+def printData(data):
     for i in data:
-        print(i["name"], i["salary"])
+        print(i)
 
 
 def getMaxDataByParam(data, param):
