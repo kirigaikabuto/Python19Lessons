@@ -1,6 +1,6 @@
 def getValue():
-    return 1
-
+    n = 1000
+    return n
 
 
 number = getValue()
