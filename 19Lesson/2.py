@@ -1,4 +1,4 @@
-from dictSupport import *
+import dictSupport
 
 user1 = {
     "name": "user1",
@@ -16,10 +16,10 @@ user3 = {
     "age": 33,
 }
 users = [user1, user2, user3]
-printData(data=users)
-output = getMaxDataByParam(data=users, param="salary")
-maxiAge = getMaxDataByParam(data=users, param="age")
-allSalary = getParamSum(data=users, param="salary")
+dictSupport.printData(data=users)
+output = dictSupport.getMaxDataByParam(data=users, param="salary")
+maxiAge = dictSupport.getMaxDataByParam(data=users, param="age")
+allSalary = dictSupport.getParamSum(data=users, param="salary")
 print(maxiAge)
 print(output)
 print(allSalary)
