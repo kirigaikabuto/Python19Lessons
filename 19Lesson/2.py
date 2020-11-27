@@ -1,23 +1,4 @@
-def printUsers(data):
-    for i in data:
-        print(i["name"], i["salary"])
-
-
-def getUserWithMaxSalary(data):
-    maxiUser = data[0]
-    for i in data:
-        if i["salary"] > maxiUser["salary"]:
-            maxiUser = i
-    return maxiUser
-
-
-def getUserWithMaxAge(data):
-    maxiUser = data[0]
-    for i in data:
-        if i["age"] > maxiUser["age"]:
-            maxiUser = i
-    return maxiUser
-
+from dictSupport import *
 
 user1 = {
     "name": "user1",
@@ -36,6 +17,9 @@ user3 = {
 }
 users = [user1, user2, user3]
 printUsers(data=users)
-output = getUserWithMaxSalary(data=users)
-maxiAge = getUserWithMaxAge(data=users)
+output = getMaxDataByParam(data=users, param="salary")
+maxiAge = getMaxDataByParam(data=users, param="age")
+allSalary = getParamSum(data=users, param="salary")
 print(maxiAge)
+print(output)
+print(allSalary)
