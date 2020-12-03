@@ -1,0 +1,7 @@
+python -m venv myvenv
+myvenv\scripts\activate
+pip install библиотека
+созздам проект и выведу все библиотеки в rex.txt
+
+запуск проект
+python manage.py runserver
