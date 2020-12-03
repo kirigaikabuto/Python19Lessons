@@ -8,3 +8,14 @@ python manage.py runserver
 
 
 [операции для запуска проекта с нуля]
+1) нужно скачать его с гитхаба и разархивировать
+2) необходимо зайти в проект из pycharm
+3) если присутсвуте уже виртуальная среда необхидмо сделать deactivate
+4) создаем свою виртуальную среду
+python -m venv myvenv
+5)активируем вирт среду
+myvenv\scripts\activate
+6) устанавливаем нужные библиотеки из req.txt
+pip install -r req.txt
+7) запускаем проект
+python manage.py runserver
