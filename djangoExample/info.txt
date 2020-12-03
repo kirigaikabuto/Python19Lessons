@@ -2,6 +2,9 @@ python -m venv myvenv
 myvenv\scripts\activate
 pip install библиотека
 созздам проект и выведу все библиотеки в rex.txt
-
+pip freeze > reg.txt
 запуск проект
 python manage.py runserver
+
+
+[операции для запуска проекта с нуля]
