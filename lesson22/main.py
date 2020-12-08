@@ -17,3 +17,10 @@ arr = [
         "age": 123,
     }
 ]
+maxi = arr[0]["age"]
+person = {}
+for i in arr:
+    if i["age"] > maxi:
+        maxi = i["age"]
+        person = i
+print(person)
