@@ -15,14 +15,11 @@ class Home:
 
 
 h1 = Home(exWidth=10, exHeight=20, exAddress="egizbaeva7/9")
-h1.printData()
-h1.printArea()
-
 h2 = Home(exWidth=20, exHeight=30, exAddress="sdsdsdsds")
-h2.printData()
-h2.printArea()
-
-Square
---width
---printArea()
---printPerimeter()
+homes = [h1, h2]
+for i in homes:
+    print(i.printData())
+# Square
+# --width
+# --printArea()
+# --printPerimeter()
