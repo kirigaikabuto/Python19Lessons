@@ -21,3 +21,8 @@ h1.printArea()
 h2 = Home(exWidth=20, exHeight=30, exAddress="sdsdsdsds")
 h2.printData()
 h2.printArea()
+
+Square
+--width
+--printArea()
+--printPerimeter()
