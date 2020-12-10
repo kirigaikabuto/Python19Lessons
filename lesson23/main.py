@@ -16,3 +16,4 @@ cat1.printData()
 
 dog1 = Dog(name="dog2", age=20)
 dog1.printData()
+
