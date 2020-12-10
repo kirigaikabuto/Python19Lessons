@@ -10,3 +10,7 @@ class Rectangle:
     def getArea(self):
         s = self.width * self.height
         return s
+
+    def getPerimeter(self):
+        p = 2 * (self.width + self.height)
+        return p
